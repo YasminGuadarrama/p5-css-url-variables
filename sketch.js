@@ -18,6 +18,12 @@ function setup() {
   //add submit button
   button = createButton('submit');
   button.position(clr_input.x + clr_input.width, clr_input.y);
+  image(img, mouseX, mouseY);
+}
+
+let img;
+function preload() {
+  img = loadImage('29386.jp2');
 }
 
 function draw() {

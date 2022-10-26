@@ -7,6 +7,12 @@ function setup() {
   clr = params.color; 
   background('yellow');
   noStroke();
+  image(img, mouseX, mouseY);
+}
+
+let img;
+function preload() {
+  img = loadImage('28890.jp2');
 }
 
 function draw() {

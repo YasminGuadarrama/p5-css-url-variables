@@ -15,6 +15,12 @@ function setup() {
   background(clr);
   fill('yellow');
   noStroke();
+  image(img, mouseX, mouseY);
+}
+
+let img;
+function preload() {
+  img = loadImage('8278.jp2');
 }
 
 function draw() {
